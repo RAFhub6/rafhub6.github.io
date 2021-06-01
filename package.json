@@ -1,11 +1,11 @@
 {
-  "name": "CdDw-purenet"
-  "version": "0.0.2"
-  "description": "a file sharing disk"
-  "main": "index.js"
+  "name": "CdDw-purenet",
+  "version": "0.0.2",
+  "description": "a file sharing disk",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"purenet v0.2 beta"
    },
-   "author: "CdDw HQ"
+   "author: "CdDw HQ",
    "license": "MIT"
 }
