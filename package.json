@@ -2,7 +2,7 @@
   "name": "CdDw-purenet",
   "version": "0.0.2",
   "description": "a file sharing disk",
-  "main": "index.js",
+  "main": "src\scripts\index.js",
   "scripts": {
     "test": "echo \"purenet v0.2 beta"
    },
