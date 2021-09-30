@@ -3,3 +3,7 @@ background-image:url(abunchofcharactersfornothing.jpg);
 background-size: cover;
 background-attachment: scroll;
 }
+body {
+  background-color: lightblue;
+}
+ 
