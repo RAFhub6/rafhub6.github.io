@@ -1,8 +1,5 @@
-import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #02006e;
-	font-family: ubuntu;
+.background{
+background-image:url(abunchofcharactersfornothing.jpg);
+background-size: cover;
+background-attachment: scroll;
 }
