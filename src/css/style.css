@@ -3,12 +3,4 @@ background-image:url(abunchofcharactersfornothing.jpg);
 background-size: cover;
 background-attachment: scroll;
 }
-.footerclass {
-  background-color: #006400;
-  position: fixed;
-  text: RAFhub6;
-  top: auto;
-  bottom: 0;
-  width: 100%;
-  display: inline-block;
-}
+
