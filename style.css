@@ -36,12 +36,12 @@ card:hover {
 }
 .card-content a:hover {background-color: #f1f1f1}
 
-card:hover .card-content {
+card:active .card-content {
   display: block;
 }
 
-card:hover .dropbtn {
-  background-color: #7cb2d1;
+card:active .dropbtn {
+  background-color: ##43afee;
 }
 .dropbtn {
   background-color: rgb(159, 187, 248);
