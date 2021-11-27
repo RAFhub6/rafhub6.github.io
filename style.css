@@ -74,6 +74,10 @@ li a:hover {
   background-color: #04AA6D;
 }
 .abtn {
-  color: black
-  background-color: #43afee
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
