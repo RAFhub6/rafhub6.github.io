@@ -76,8 +76,8 @@ li a:hover {
 slbtn {
    background-color: #43afee;
   border: none;
-  color: white;
-  padding: 6px 8px;
+  textcolor: white;
+  padding: 2px 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
