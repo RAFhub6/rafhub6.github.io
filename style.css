@@ -53,6 +53,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 li {
   float: left;
