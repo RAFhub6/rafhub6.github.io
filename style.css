@@ -64,7 +64,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 li a:hover {
@@ -72,12 +72,4 @@ li a:hover {
 }
 .active {
   background-color: #04AA6D;
-}
-.abtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
 }
