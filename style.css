@@ -49,3 +49,30 @@ card:active .dropbtn {
   border: none;
   cursor: pointer;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #4ab5e7;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
