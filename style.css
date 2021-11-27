@@ -60,12 +60,6 @@ ul {
 li {
   float: left;
 }
-
-a {
-  display: block;
-  padding: 8px;
-  background-color: #4ab5e7;
-}
 li a {
   display: block;
   color: white;
