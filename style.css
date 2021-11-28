@@ -50,7 +50,7 @@ card:active .dropbtn {
   cursor: pointer;
 }
 navbar {
- background-color: black;
+ background-color: rgba(29, 24, 24, 0.534);
  overflow: hidden;
  position: fixed;
  bottom: 0;
@@ -61,7 +61,7 @@ navbar a {
  display: block;
  color: #f2f2f2;
  text-align: center;
- padding: 14px 16px;
+ padding: 4px 6px;
  text-decoration: none;
  font-size: 17px;
 }
