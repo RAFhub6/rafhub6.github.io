@@ -87,3 +87,11 @@ hr {
  background-color: #43afee;
  border-radius: 25px;
 }
+a {
+ text-decoration: none;
+ background-color: #36acf0;
+}
+a:hover {
+ text-decoration: none;
+ background-color: #43afee;
+}
