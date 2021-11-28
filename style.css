@@ -95,3 +95,6 @@ a2:hover {
  border-radius: 25px;
  color: #f1f1f1
 }
+a {
+ all: revert;
+}
