@@ -41,6 +41,83 @@ card:hover .card-content {
 card:active .dropbtn {
   background-color: #43afee;
 }
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: borderbox;
+ font-family: 'Poppins', sans-serif;
+}
+.contain1 {
+ display: flex;
+ justify-content: center;'''
+ align-items: center;
+ flex-wrap: wrap;
+}
+contain1 * {
+ position: relative;
+ display: inline-block;
+ padding: 15px 30px;
+ border: 2px solid #43afee;
+ margin: 40px;
+ text-transform: uppercase;
+ font-weight: 600;
+ text-decoration: none;
+ letter-spacing: 2px;
+ color: #ffffff;
+ -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+ transition: 0.5s
+}
+.cont1 a:hover {
+ color: black;
+}
+.cont1 a:nth-child(2) {
+ filter: hue-rotate(80deg);
+}
+.cont1 a::before {
+ content: '';
+ position: absolute;
+ left: -20px;
+ top: 50%;
+ transform: translateY(-50%);
+ width: 20px;
+ height: 2px;
+ background: #43afee;
+ box-shadow: 5px -8px 0 #43afee,
+             5px -8px 0 #43afee;
+ transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s, transition-delay 1s,0.5s,0s,0s;
+}
+.cont1 a:hover::before {
+ width: 60%;
+ height: 100%;
+ left: -2px;
+ box-shadow: 5px 0 0 #43afee,
+             5px 0 0 #43afee;
+ transition-delay 0s,0.5s,1s,1s;
+}
+.cont1 a::after {
+ content: '';
+ position: absolute;
+ right: -20px;
+ top: 50%;
+ transform: translateY(-50%);
+ width: 20px;
+ height: 2px;
+ background: #43afee;
+ box-shadow: 5px -8px 0 #43afee,
+             5px -8px 0 #43afee;
+ transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s, transition-delay 1s,0.5s,0s,0s;
+}
+.cont1 a:hover::after {
+ width: 60%;
+ height: 100%;
+ right: -2px;
+ box-shadow: 5px 0 0 #43afee,
+             5px 0 0 #43afee;
+ transition-delay 0s,0.5s,1s,1s;
+}
+             
+
+
 .dropbtn {
   background-color: linear-gradient(rgb(79, 129, 238), white);
   color: rgb(113, 181, 236);
