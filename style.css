@@ -94,6 +94,7 @@ contain1 * {
              5px 0 0 #43afee;
  transition-delay 0s,0.5s,1s,1s;
 }
+/* neon button hover: unfinished watch tutorial */
 .cont1 a::after {
  content: '';
  position: absolute;
